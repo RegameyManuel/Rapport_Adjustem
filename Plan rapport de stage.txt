@@ -1,0 +1,20 @@
+Adjustem
+    1. Introduction : Présentation de l'entreprise où j’ai effectué mon stage, de la mission qui m’a été confiée, ainsi que de l'objectif de ce rapport de stage.
+
+    2. Contexte : Présentation du domaine d'application du logiciel de traitement d'image (mise en situation de portes et de fenêtres sur des photographies de maisons) et des besoins pour lesquels il a été développé.
+
+    3. Présentation de l'outil de développement : Présentation de l'environnement de développement utilisé (Windows 7, javascript) et des principales librairies et outils utilisés pour développer le logiciel.
+
+    4. Présentation des fonctionnalités :
+       a)Présentation des principales fonctionnalités du logiciel (par exemple, détection de forme, reconnaissance d'objet, modification d'image)
+       b)Mise en œuvre technique (algorithmes utilisés, structures de données, etc.).
+
+    5. Intégration dans la suite logicielle existante
+
+    6. Résultats : Présentation des résultats obtenus avec le logiciel
+
+    7. Déploiement sur plateforme de test
+
+    8. Conclusion : Récapitulation des principaux points abordés dans le rapport, discussion sur les points forts et les points à améliorer du logiciel, et perspectives pour les travaux futurs.
+
+    9. Annexes : Présentation de captures d'écran, de codes sources, de données d'entrée et de sortie, et tout autre document ou information qui pourrait être utile pour compléter le rapport.
