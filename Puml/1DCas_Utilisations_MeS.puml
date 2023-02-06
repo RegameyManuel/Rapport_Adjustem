@@ -16,18 +16,25 @@ package Adjustem-Web {
             usecase "Implanter l'Objet ratio libre" as UC4 #LightPink
             usecase "Implanter l'Objet en perspective" as UC5 #LightPink
             usecase "Ajouter une mention" as UC6 #LightPink
-            usecase "Exporter la Mise en Situation" as UC7 #LightPink
+            usecase "Modifier la mention" as UC7 #LightPink
+            usecase "Changer la couleur de la mention" as UC8 #LightPink
+            usecase "Déplacer la mention" as UC9 #LightPink
+            usecase "Exporter la Mise en Situation" as UC10 #LightPink
         }
     }
 }
 
 
+
+u --- UC1
+u --- UC2
 u --- UC3
 u --- UC4
 u --- UC5
 u --- UC6
 u --- UC7
-u --- UC1
-u --- UC2
+u --- UC8
+u --- UC9
+u --- UC10
 
 @enduml

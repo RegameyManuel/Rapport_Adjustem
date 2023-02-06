@@ -1,0 +1,21 @@
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#Situation_view {
+  position : relative;
+}
+
+#img_view {
+  z-index: 1;
+}
+
+#calque_obj {
+  z-index: 2;
+  position: absolute;
+
+}

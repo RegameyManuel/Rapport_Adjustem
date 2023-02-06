@@ -1,0 +1,55 @@
+@startuml Mise en Situation Cas d'Utilisations
+!theme cerulean-outline
+skinparam actorStyle hollow
+left to right direction
+title Mise en Situation Cas d'Utilisations
+
+:Utilisateur: as u #green
+
+package Adjustem-Web {
+    package Mise-en-Situation {
+        package Objet {
+            usecase "Choix d'un Objet" as UC1 #LightCyan
+            usecase "Gérer la transparence de l'Objet" as UC2 #LightCyan
+            usecase "Augmenter le filtre de transparence" as UC3 #LightCyan
+            usecase "Diminuer le filtre de transparence" as UC4 #LightCyan
+            usecase "Modifier la couleur de fond transparence" as UC5 #LightCyan
+            usecase "Détourer l'Objet" as UC6 #LightCyan
+        }
+        package Vue {
+            usecase "Choix d'une Vue" as UC7 #LightCyan
+        }
+        package Mode {
+            usecase "Implanter l'Objet ratio proportionnel" as UC8 #LightCyan
+            usecase "Implanter l'Objet ratio libre" as UC9 #LightCyan
+            usecase "Implanter l'Objet en perspective" as UC10 #LightCyan
+        }
+        package Mention {
+            usecase "Ajouter une mention" as UC11 #LightCyan
+            usecase "Modifier la mention" as UC12 #LightCyan
+            usecase "Changer la couleur de la mention" as UC13 #LightCyan
+            usecase "Déplacer la mention" as UC14 #LightCyan
+        }
+        package Export {
+            usecase "Exporter la Mise en Situation" as UC15 #LightCyan
+        }
+    }
+}
+
+u --- UC1
+u --- UC2
+u --- UC3
+u --- UC4
+u --- UC5
+u --- UC6
+u --- UC7
+u --- UC8
+u --- UC9
+u --- UC10
+u --- UC11
+u --- UC12
+u --- UC13
+u --- UC14
+u --- UC15
+
+@enduml
