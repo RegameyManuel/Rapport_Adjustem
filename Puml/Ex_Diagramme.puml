@@ -1,0 +1,21 @@
+@startuml
+!theme spacelab
+
+autonumber
+
+participant Alice
+box "Les amis"
+    participant Bob
+    participant Charlie
+end box
+
+Alice -> Bob ++ : dit bonjour
+Alice -> Bob : demande l'heure
+Alice <-- Bob : répond bonjour
+Bob -> Charlie ++ : demande l'heure
+...
+Charlie -> Charlie : regarde sa montre
+Bob <- Charlie -- : donne l'heure
+Alice <-- Bob -- : répond l'heure
+
+@enduml

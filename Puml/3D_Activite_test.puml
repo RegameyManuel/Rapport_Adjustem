@@ -1,0 +1,17 @@
+@startuml test
+!theme amiga
+|#navy|Mode Proportionnel|
+start
+if (Mode?) is (Proportionnel) then
+:**action red**;
+:foo1;
+else (not red)
+|#darkgreen|Mode Personnalisé|
+:**action not red**;
+:foo2;
+endif
+
+|#maroon|Mode Par Point|
+:foo5;
+stop
+@enduml

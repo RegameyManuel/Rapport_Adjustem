@@ -1,0 +1,128 @@
+@startuml Mise en Situation Diagramme de Séquence
+title MeS Diagramme de Sequence
+!theme cerulean-outline
+
+actor Utilisateur
+control Adjustem
+database BDD
+
+== Ouverture MeS depuis un devis (accessible si data Objet existante) ==
+
+Utilisateur -> Adjustem: 1:Demande accès MeS sur un Objet du devis
+Adjustem -> BDD: 1a:Vérifie existence img Objet
+Adjustem <-- BDD : 1a 1:Appel de data de l'Objet
+Adjustem <-- BDD : 1a 2:Message d'erreur
+
+Adjustem <- BDD: :Appel de data de l'Objet
+Utilisateur <- Adjustem: :Affiche data de l'Objet du Devis
+
+
+alt utilisateur confirme
+Adjustem -> BDD: :Ajoute la catégorie
+Adjustem <- BDD: :Appel des catégories
+Utilisateur <- Adjustem: :Rafraîchit l'arborescence
+
+else utilisateur décline
+|||
+Utilisateur <- Adjustem: :Retour à la page d'arborescence 
+end
+
+
+
+||40||
+
+== Ouverture MeS libre ==
+
+Utilisateur -> Adjustem: 1:Demande accès MeS
+Adjustem -> Adjustem: 2a:Vérifie si l'utilisateur est connecté
+Utilisateur <-- Adjustem: 2a 1:Renvoi à la page de connexion 
+Utilisateur --> Adjustem: 2a 2:L'utilisateur se connecte
+Adjustem -> Adjustem: 3b:Vérifie si l'utilisateur possède les droits
+Utilisateur <-- Adjustem: 3b 1: Affiche un message d'erreur
+Utilisateur x--x Adjustem: 3b 2: Renvoi à la page d'acceuil
+Adjustem <- BDD: :Appel de data de l'Objet
+Utilisateur <- Adjustem: :Affiche data de l'Objet par défaut et de la Vue par défaut
+
+||40||
+== Changement de Vue ==
+
+Utilisateur -> Adjustem: :Entre le nom de la catégorie
+Utilisateur -> Adjustem: :Appuie sur le bouton correspondant
+Adjustem -> Adjustem: :Vérifie s'il n'y pas de catégorie du même nom
+Utilisateur <- Adjustem: :Affiche un message demandant de confirmer
+Utilisateur -> Adjustem: : Réponse de l'utilisateur
+
+alt utilisateur confirme
+Adjustem -> BDD: :Ajoute la catégorie
+Adjustem <- BDD: :Appel des catégories
+Utilisateur <- Adjustem: :Rafraîchit l'arborescence
+
+else utilisateur décline
+|||
+Utilisateur <- Adjustem: :Retour à la page d'arborescence 
+end
+
+||40||
+==Changement d'Objet==
+
+Utilisateur -> Adjustem: :Selectionne une catégorie
+Utilisateur -> Adjustem: :Rentre le nouveau nom
+Utilisateur -> Adjustem: :Appuie sur le bouton correspondant
+
+Adjustem -> Adjustem: :Vérifie s'il n'y pas de catégorie du même nom
+Utilisateur <- Adjustem: :Affiche un message demandant de confirmer
+Utilisateur -> Adjustem: : Réponse de l'utilisateur
+
+alt utilisateur confirme
+    Adjustem -> BDD: :Modification de la catégorie
+    Adjustem <- BDD: :Appel des catégories
+    Utilisateur <- Adjustem: :Rafraîchit l'arborescence
+
+else utilisateur décline
+|||
+    Utilisateur <- Adjustem: :Retour à la page d'arborescence 
+end
+
+||40||
+==Changement de Mode de Dessin==
+
+Utilisateur -> Adjustem: :Glissé-déposé
+Adjustem -> BDD :Demande si la catégorie a un parent
+
+alt si oui
+    Utilisateur <- Adjustem: :Affiche un message d'erreur
+
+|||
+else si non
+    Adjustem -> BDD: :Modification catégorie
+    Adjustem <- BDD: :Appel des catégories
+    Utilisateur <- Adjustem: :Rafraîchit l'arborescence
+end
+||40||
+==Chargement d'une Mention==
+
+
+||40||
+==Changement de la Mention==
+
+
+||40||
+==Changement de la Couleur de la Mention==
+
+
+||40||
+==Changement de position de Mention==
+
+
+||40||
+==Export Sous Devis==
+
+
+||40||
+==Export Simple==
+
+
+|||
+
+
+@enduml

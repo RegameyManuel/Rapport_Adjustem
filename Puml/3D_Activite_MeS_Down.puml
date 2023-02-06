@@ -1,0 +1,43 @@
+@startuml MeS Dessin mode Proportionnel/Personnalisé/Parpoint Down
+
+start
+!theme blueprint
+
+if (La Vue est intégralement visible à l'écran?) then (oui)
+
+  if (Interaction de type touch?) then (yes)
+  :Désactiver le scroll;
+  else (non)
+  endif
+  
+  if (Coordonnées au sein de la Vue?) then (oui)
+    :Initialisation du point Init(x,y);
+    switch (Mode?)
+    case ( Proportionnel )
+      :Initialiser le Rectangle de sélection \n contraint par le Ratio;
+    case ( Personnalisé ) 
+      :Initialisation le Rectangle de sélection \n libre;
+    case ( Par Point )
+      :Ajout d'un point pour \n générer le quadrilatère;
+      if (Nombre de point = 4?) then (oui)
+        #maroon:Verifier la validité du quadrilatère;
+          if (Quadrilatère Convexe?) then (oui)
+            #maroon:Ordonner les points du quadrilatère;
+            #maroon:Dessiner le quadrilatère;
+          else (non)
+            :Génerer un message d'erreur;
+            :Effacer la pile de points;
+            stop;
+          endif
+      endif 
+    endswitch
+
+  else (non)
+    stop;
+  endif
+
+else (non)
+  stop;
+endif
+
+stop

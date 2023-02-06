@@ -1,0 +1,6 @@
+digraph {
+Image_Objet -> Image_Vue
+Image_Objet -> Mise_En_Situation
+Image_Vue -> Mise_En_Situation
+Mise_En_Situation -> Export
+}

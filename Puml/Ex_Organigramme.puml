@@ -1,0 +1,18 @@
+@startuml
+!theme Cerulean
+
+start
+- Ouvrir GMLF
+
+If (Déjà lu ?) then (oui)
+    -Relire
+    -Essayer les manips
+else (non)
+    -Lire
+endif
+
+-Placard
+stop
+
+
+@enduml

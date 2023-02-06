@@ -1,0 +1,23 @@
+@startuml MeS Dessin mode Proportionnel/Personnalisé/Parpoint Up
+
+start
+!theme blueprint
+
+if (Mode différend de Par Point?) then (oui)
+
+    if (Coordonnées au sein de la Vue?) then (oui)
+        :Affecter la position du curseur ou du doigt au point Courant(x,y);
+        :Dessiner l'Objet en fonction de la position\net des dimensions du Rectangle de sélection;
+        :Désactiver le Rectangle de sélection;
+        :Rendre l'Export possible;
+
+    else (non)
+      :Désactiver le Rectangle de sélection;
+      stop;
+    endif
+
+else (non)
+  stop;
+endif
+
+stop

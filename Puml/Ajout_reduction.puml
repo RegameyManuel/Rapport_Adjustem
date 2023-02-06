@@ -1,0 +1,46 @@
+
+@startuml
+title __Ajout de Réduction__
+actor Utilisateur
+control Serveur
+database BDD
+
+Utilisateur -> Serveur: 1:Demande accès formulaire
+Serveur -> Serveur: 2a:Vérifie si l'utilisateur est connecté
+Utilisateur <-- Serveur: 2a 1:Renvoi à la page de connexion 
+Utilisateur --> Serveur: 2a 2:L'utilisateur se connecte
+Serveur -> Serveur: 3b:Vérifie si l'utilisateur possède les droits
+Utilisateur <-- Serveur: 3b 1: Affiche un message d'erreur
+Utilisateur x--x BDD: 3b 2: Renvoi à la page d'acceuil
+
+loop tant que il n'y a pas de client avec une commande
+    loop tant que le client n'est pas valide
+        Utilisateur <- Serveur: 4:Affiche le formulaire de selection du client
+        Serveur -> Serveur: 5c:Vérifie si le client existe
+        Utilisateur <-- Serveur:5c 1: Affiche un message d'erreur
+        Utilisateur <-- Serveur: 5c 2:Affiche le formulaire de selection du client
+    end
+
+    Serveur -> BDD: 6:Demande les commandes en cours du client 
+    Serveur <- BDD: 7:Envoie les commandes de - 3ans
+    Serveur -> Serveur: 8d:Vérification des données / mise en forme
+    Utilisateur <-- Serveur: 8d 1:Affiche un message d'erreur
+    Utilisateur <-- Serveur: 8d 2:Affiche le formulaire de selection du client
+end
+
+Utilisateur <- Serveur: 9: Affiche le résultat
+Utilisateur -> Serveur: 10:Selectionne une commande
+Serveur -> BDD: 11:Demande les informations de la commande
+Serveur <- BDD: 12:Envoie les détails de la commandes
+Utilisateur <- Serveur: 13:Affiche les détails de la commande
+
+loop tant que la réduction n'est pas valide
+    Utilisateur -> Serveur: 14:Envoie la réduction à appliquer
+    Serveur -> Serveur : 15e:Vérifie la réduction
+    Utilisateur <-- Serveur:15e 1:Affiche un message d'erreur
+    Utilisateur <-- Serveur:15e 2:Affiche les détails de la commande
+end 
+
+Serveur -> BDD: 16:Envoie la réduction à appliquer
+BDD --> BDD : 17:La BDD se met à jour
+@enduml

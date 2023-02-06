@@ -1,0 +1,31 @@
+@startuml Navigation
+title Navigation
+actor Utilisateur
+control Serveur
+database BDD
+
+
+==Chargement du panier==
+Utilisateur -> Serveur: 1:Se connecte au système
+Serveur --> Serveur: :Vérifie l'existence d'un panier courant
+
+    alt Serveur --> Serveur: : aucun panier
+        Serveur --> Serveur: :Vérifie si l'Utilisateur est connecté
+        alt Serveur --> Serveur: : Utilisateur connecté
+            Serveur <- BDD: :chargement du panier Utilisateur
+        else Serveur --> Serveur: :Utilisateur non connecté
+            Serveur -> Serveur: :Création panier temporaire
+        end
+    end
+||80||
+
+==Utilisateur quitte l'application==
+Utilisateur -> Serveur: 2:Sortie du système
+Serveur -> Serveur: :Vérifie si l'Utilisateur est connecté
+    alt Utilisateur connecté
+        Serveur -> BDD: :Sauvegarde du panier Utilisateur
+
+    else Utilisateur non connecté
+        Serveur -> Serveur: :Suppression du panier temporaire
+    end
+||80||

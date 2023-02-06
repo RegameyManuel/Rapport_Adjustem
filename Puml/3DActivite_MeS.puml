@@ -1,0 +1,21 @@
+@startuml MeS Dessin Proportionnel/Personnalisé/Par Point
+
+start
+!theme cerulean-outline
+
+  :Tester coordonnées d'un clic maintenu;
+
+if (Coordonnées au sein de la Vue?) then (oui)
+switch (Mode?)
+case ( Proportionnel )
+  #palegreen:Initialisation du Rectangle de sélection contraint par le Ratio;
+case ( Personnalisé ) 
+  #palegreen:Initialisation du Rectangle de sélection libre;
+case ( Par Point )
+  #palegreen:Ajout d'un point pour la génération du quadrilatère;
+
+endswitch
+else (non)
+endif
+
+stop
