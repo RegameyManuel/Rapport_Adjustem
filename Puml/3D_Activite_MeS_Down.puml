@@ -5,12 +5,12 @@ start
 
 if (La Vue est intégralement visible à l'écran?) then (oui)
 
-  if (Interaction de type touch?) then (yes)
+  if (Interaction de type touch?) then (oui)
   :Désactiver le scroll;
   else (non)
   endif
   
-  if (Coordonnées au sein de la Vue?) then (oui)
+  if (Coordonnées du curseur au sein de la Vue?) then (oui)
     :Initialisation du point Init(x,y);
     switch (Mode?)
     case ( Proportionnel )
@@ -29,6 +29,7 @@ if (La Vue est intégralement visible à l'écran?) then (oui)
             :Effacer la pile de points;
             stop;
           endif
+          else (non)
       endif 
     endswitch
 

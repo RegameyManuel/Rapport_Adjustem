@@ -8,29 +8,33 @@ title Mise en Situation Cas d'Utilisations
 
 package Adjustem-Web {
     package Mise-en-Situation {
-        package Objet {
+        rectangle Objet {
             usecase "Choix d'un Objet" as UC1 #LightCyan
-            usecase "Gérer la transparence de l'Objet" as UC2 #LightCyan
-            usecase "Augmenter le filtre de transparence" as UC3 #LightCyan
-            usecase "Diminuer le filtre de transparence" as UC4 #LightCyan
-            usecase "Modifier la couleur de fond transparence" as UC5 #LightCyan
+
+            package Transparence {
+                usecase "Gérer la transparence de l'Objet" as UC2 #LightCyan
+                usecase "Augmenter le filtre de transparence" as UC3 #LightCyan
+                usecase "Diminuer le filtre de transparence" as UC4 #LightCyan
+                usecase "Modifier la couleur de fond transparence" as UC5 #LightCyan
+            }
+
             usecase "Détourer l'Objet" as UC6 #LightCyan
         }
-        package Vue {
+        rectangle Vue {
             usecase "Choix d'une Vue" as UC7 #LightCyan
         }
-        package Mode {
+        rectangle Mode {
             usecase "Implanter l'Objet ratio proportionnel" as UC8 #LightCyan
             usecase "Implanter l'Objet ratio libre" as UC9 #LightCyan
             usecase "Implanter l'Objet en perspective" as UC10 #LightCyan
         }
-        package Mention {
+        rectangle Mention {
             usecase "Ajouter une mention" as UC11 #LightCyan
             usecase "Modifier la mention" as UC12 #LightCyan
             usecase "Changer la couleur de la mention" as UC13 #LightCyan
             usecase "Déplacer la mention" as UC14 #LightCyan
         }
-        package Export {
+        rectangle Export {
             usecase "Exporter la Mise en Situation" as UC15 #LightCyan
         }
     }

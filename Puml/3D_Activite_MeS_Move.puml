@@ -7,7 +7,7 @@ if (Le Rectangle de sélection est actif?) then (oui)
  
   if (La Vue est intégralement visible à l'écran?) then (oui)
 
-    if (Coordonnées au sein de la Vue?) then (oui)
+    if (Coordonnées du curseur au sein de la Vue?) then (oui)
       :Affecter la position du curseur ou du doigt au point Courant(x,y);
 
       if (Mode différend de Par Point?) then (oui)

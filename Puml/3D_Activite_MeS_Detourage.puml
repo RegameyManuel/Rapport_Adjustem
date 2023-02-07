@@ -1,0 +1,31 @@
+@startuml MeS Fonction Detourage
+
+start
+!theme blueprint
+
+:Chargement des pixels de l'image Objet;
+
+repeat :Analyse des pixels par lignes;
+  if (La ligne contient au moins un pixel au dessus du seuil de transparence) then (oui)
+  :enregistrement de la position de la ligne pour sauvegarde;
+    else (non)
+  endif
+repeat while (Encore des lignes?)
+
+repeat :Analyse des pixels par colonnes;
+  if (La colonne contient au moins un pixel au dessus du seuil de transparence) then (oui)
+  :enregistrement de la position de la colonne pour sauvegarde;
+    else (non)
+  endif
+repeat while (Encore des colonnes?)
+
+if (Des positions sont en mémoire) then (oui)
+  :Première colonne sauvegardée = xDebut;
+  :Dernière colonne sauvegardée = xFin;
+  :Première ligne sauvegardée = yDebut;
+  :Dernière ligne sauvegardée = yFin;
+  :Remplacement de l'image en mémoire par la zone de cette image délimitée par les coordonnées obtenues;
+    else (non)
+  endif
+
+stop

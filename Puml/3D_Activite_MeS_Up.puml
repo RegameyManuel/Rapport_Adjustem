@@ -5,7 +5,7 @@ start
 
 if (Mode différend de Par Point?) then (oui)
 
-    if (Coordonnées au sein de la Vue?) then (oui)
+    if (Coordonnées du curseur au sein de la Vue?) then (oui)
         :Affecter la position du curseur ou du doigt au point Courant(x,y);
         :Dessiner l'Objet en fonction de la position\net des dimensions du Rectangle de sélection;
         :Désactiver le Rectangle de sélection;
