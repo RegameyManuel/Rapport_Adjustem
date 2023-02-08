@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta><dc:date>2023-02-09T00:08:35.185345965</dc:date><meta:editing-duration>PT6H3M29S</meta:editing-duration><meta:editing-cycles>4</meta:editing-cycles><meta:generator>LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="5" meta:paragraph-count="76" meta:word-count="1322" meta:character-count="8514" meta:non-whitespace-character-count="7227"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="ViewAreaTop" config:type="long">131022</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">33022</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">17993</config:config-item>
+   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">10624</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">142293</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">131022</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">33020</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">149013</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
+     <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">100</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="KeepRatio" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectFields" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectBookmarks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="GutterAtTop" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HeaderSpacingBelowLastPara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="FrameAutowidthWithMorePara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintFaxName" config:type="string"/>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2049719</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FootnoteInColumnToPageEnd" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddParaLineSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">1219744</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Devanagari" svg:font-family="&apos;Lohit Devanagari&apos;"/>
+  <style:font-face style:name="Lohit Devanagari1" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans CJK SC" svg:font-family="&apos;Noto Sans CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Serif CJK SC" svg:font-family="&apos;Noto Serif CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:flow-with-text="false"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="fr" fo:country="FR" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:default-style style:family="paragraph">
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="1.251cm" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="fr" fo:country="FR" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
+  </style:default-style>
+  <style:default-style style:family="table">
+   <style:table-properties table:border-model="collapsing"/>
+  </style:default-style>
+  <style:default-style style:family="table-row">
+   <style:table-row-properties fo:keep-together="auto"/>
+  </style:default-style>
+  <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
+  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Lohit Devanagari1" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.247cm" style:contextual-spacing="false" fo:line-height="115%"/>
+  </style:style>
+  <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
+   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;"/>
+  </style:style>
+  <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:language="zxx" fo:country="none" style:font-size-asian="12pt" style:language-asian="zxx" style:country-asian="none" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:language-complex="zxx" style:country-complex="none"/>
+  </style:style>
+  <style:style style:name="Numbering_20_Symbols" style:display-name="Numbering Symbols" style:family="text"/>
+  <text:outline-style style:name="Outline">
+   <text:outline-level-style text:level="1" loext:num-list-format="%1%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="2" loext:num-list-format="%2%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="3" loext:num-list-format="%3%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="4" loext:num-list-format="%4%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="5" loext:num-list-format="%5%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="6" loext:num-list-format="%6%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="7" loext:num-list-format="%7%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="8" loext:num-list-format="%8%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="9" loext:num-list-format="%9%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="10" loext:num-list-format="%10%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+  </text:outline-style>
+  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
+  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+  <text:linenumbering-configuration text:number-lines="false" text:offset="0.499cm" style:num-format="1" text:number-position="left" text:increment="5"/>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="00129ca0"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.423cm" style:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:rsid="00099aa2" officeooo:paragraph-rsid="00129ca0"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="000a66b5" officeooo:paragraph-rsid="00129ca0"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.423cm" style:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="00129ca0"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.423cm" style:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0016b6a5"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="00116a5f" officeooo:paragraph-rsid="001c69e5"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="00115f35" officeooo:paragraph-rsid="0016b6a5"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="0009df60" officeooo:paragraph-rsid="0016b6a5"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="0009df60" officeooo:paragraph-rsid="001c69e5"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="001148b0" officeooo:paragraph-rsid="0016b6a5"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="001243c8" officeooo:paragraph-rsid="0016b6a5"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="00136a14" officeooo:paragraph-rsid="0016b6a5"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0016b6a5"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="0016b6a5" officeooo:paragraph-rsid="0016b6a5"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="00189b1d" officeooo:paragraph-rsid="00189b1d"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.423cm" style:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="001a8a9f" officeooo:paragraph-rsid="001a8a9f" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="0016b6a5" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.423cm" style:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0009df60" officeooo:paragraph-rsid="001c69e5" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.423cm" style:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="001dfb52" officeooo:paragraph-rsid="001dfb52" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="001dfb52" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="000eb08e" officeooo:paragraph-rsid="001c69e5"/>
+  </style:style>
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="00073c27" officeooo:paragraph-rsid="001c69e5"/>
+  </style:style>
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="000921ad" officeooo:paragraph-rsid="001c69e5"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="000cbdde" officeooo:paragraph-rsid="001c69e5"/>
+  </style:style>
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="001c69e5"/>
+  </style:style>
+  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-style="italic" officeooo:rsid="001c69e5" officeooo:paragraph-rsid="001c69e5" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-style="italic" officeooo:rsid="00073c27" officeooo:paragraph-rsid="001c69e5" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="001dfb52" officeooo:paragraph-rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="0018dc0e" officeooo:paragraph-rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="001fbdb3" officeooo:paragraph-rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="0019c94a" officeooo:paragraph-rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" officeooo:paragraph-rsid="001dfb52" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.423cm" style:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Serif" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="0017b6dd" officeooo:paragraph-rsid="001dfb52" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Serif" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="0017b6dd" officeooo:paragraph-rsid="001dfb52" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Serif" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="0017b6dd" officeooo:paragraph-rsid="001dfb52" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" officeooo:rsid="0017b6dd" officeooo:paragraph-rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Liberation Serif" officeooo:paragraph-rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties style:font-name="Liberation Serif" officeooo:paragraph-rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="00177d21" officeooo:paragraph-rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties officeooo:rsid="000a66b5"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties officeooo:rsid="00136a14"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties officeooo:rsid="001243c8"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties officeooo:rsid="00115f35"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties officeooo:rsid="00154702"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties officeooo:rsid="0016b6a5"/>
+  </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:text-properties officeooo:rsid="00189b1d"/>
+  </style:style>
+  <style:style style:name="T8" style:family="text">
+   <style:text-properties officeooo:rsid="001a8a9f"/>
+  </style:style>
+  <style:style style:name="T9" style:family="text">
+   <style:text-properties officeooo:rsid="00319615"/>
+  </style:style>
+  <style:style style:name="T10" style:family="text">
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0009fe64" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T11" style:family="text">
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="000fede1" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T12" style:family="text">
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="001dfb52" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T13" style:family="text">
+   <style:text-properties officeooo:rsid="0009fe64"/>
+  </style:style>
+  <style:style style:name="T14" style:family="text">
+   <style:text-properties officeooo:rsid="000cbdde"/>
+  </style:style>
+  <style:style style:name="T15" style:family="text">
+   <style:text-properties officeooo:rsid="0007aa0e"/>
+  </style:style>
+  <style:style style:name="T16" style:family="text">
+   <style:text-properties officeooo:rsid="000b6f73"/>
+  </style:style>
+  <style:style style:name="T17" style:family="text">
+   <style:text-properties officeooo:rsid="001c69e5"/>
+  </style:style>
+  <style:style style:name="T18" style:family="text">
+   <style:text-properties officeooo:rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="T19" style:family="text">
+   <style:text-properties officeooo:rsid="0018dc0e"/>
+  </style:style>
+  <style:style style:name="T20" style:family="text">
+   <style:text-properties officeooo:rsid="001d72f6"/>
+  </style:style>
+  <style:style style:name="T21" style:family="text">
+   <style:text-properties officeooo:rsid="001a131e"/>
+  </style:style>
+  <style:style style:name="T22" style:family="text">
+   <style:text-properties officeooo:rsid="001afa0e"/>
+  </style:style>
+  <style:style style:name="T23" style:family="text">
+   <style:text-properties officeooo:rsid="0019c94a"/>
+  </style:style>
+  <style:style style:name="T24" style:family="text">
+   <style:text-properties style:font-name="Liberation Serif"/>
+  </style:style>
+  <style:style style:name="T25" style:family="text">
+   <style:text-properties style:font-name="Liberation Serif" officeooo:rsid="0016a325"/>
+  </style:style>
+  <style:style style:name="T26" style:family="text">
+   <style:text-properties style:font-name="Liberation Serif" fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T27" style:family="text">
+   <style:text-properties style:font-name="Liberation Serif" officeooo:rsid="001dfb52"/>
+  </style:style>
+  <style:style style:name="T28" style:family="text">
+   <style:text-properties officeooo:rsid="00177d21"/>
+  </style:style>
+  <style:style style:name="T29" style:family="text">
+   <style:text-properties officeooo:rsid="0017b6dd"/>
+  </style:style>
+  <style:style style:name="T30" style:family="text">
+   <style:text-properties officeooo:rsid="001f46b7"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm" loext:margin-gutter="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:style style:name="dp1" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="full"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1" draw:style-name="dp1"/>
+ </office:master-styles>
+ <office:body>
+  <office:text text:use-soft-page-breaks="true">
+   <text:sequence-decls>
+    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
+   </text:sequence-decls>
+   <text:p text:style-name="P17">1. Introduction :</text:p>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13">R<text:span text:style-name="T8">emerciement</text:span></text:p>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P14"><text:tab/>Je tiens tout d’abord à remercier mon tuteur de Stage Donatien Célia et son associé, Jérôme Gallot cogérant de la société Adjustem pour m’avoir accepté et permis d’effectuer ce stage dans des conditions particulièrement favorables.</text:p>
+   <text:p text:style-name="P14"/>
+   <text:p text:style-name="P14"><text:tab/>Un grand merci à Rémi, Cédric, Gauthier, Kevin, Mickaël et Lætitia <text:span text:style-name="T7">pour leur accueil leur bonne humeur et l’ambiance paisible et bienveillante qui règne au sein de la société Adjustem.</text:span></text:p>
+   <text:p text:style-name="P14"/>
+   <text:p text:style-name="P15"><text:tab/>Je remercie ensuite l’équipe pédagogique de l’Afpa d’Amiens et tout particulièrement notre formateur, Germain Sipière pour sa patience et les conseils prodigués <text:span text:style-name="T8">et les autres formatrices, formateurs nous ayant épaulés pendant ces mois de formation</text:span>.</text:p>
+   <text:p text:style-name="P15"/>
+   <text:p text:style-name="P15"><text:tab/>Et pour finir merci à tous les stagiaires croisés ici à l’Afpa d’Amiens pour ce<text:span text:style-name="T8">tte parenthèse</text:span> de vie <text:span text:style-name="T8">professionnelle</text:span> où nous travaillons tous <text:span text:style-name="T8">pour un meilleur avenir.</text:span></text:p>
+   <text:p text:style-name="P15"/>
+   <text:p text:style-name="P15"><text:tab/><text:span text:style-name="T8">Merci à Nabi, Arlette, Dylan, Benjamin, Stéphane, Maxime, Anne, Mohamed, Léa et tant d’autres !</text:span></text:p>
+   <text:p text:style-name="P14"/>
+   <text:p text:style-name="P14"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P7">Présentation Personnelle</text:p>
+   <text:p text:style-name="P8"/>
+   <text:p text:style-name="P10"><text:tab/>Initialement Tourneur-Fraiseur de formation, j’ai eu l’occasion de travailler comme développeur Delphi entre 2007 et 2009 à la suite d’une formation de développeur industriel et embarqué <text:span text:style-name="T2">autour du langage C</text:span> en 2005. Intégrateur et chargé de maintenance <text:span text:style-name="T6">dans </text:span><text:span text:style-name="T8">la même société pendant sept années</text:span> par la suite j’ai <text:span text:style-name="T3">fais le choix de me reconvertir </text:span>comme ferronnier d’art à l’AFPA du Havre en 2015 <text:span text:style-name="T4">avec joie </text:span><text:span text:style-name="T3">et succès </text:span><text:span text:style-name="T2">pour retourner au travail du métal et pouvoir quitter la région parisienne</text:span><text:span text:style-name="T3">. J’ai pu donc pratiquer une activité professionnelle comme ferronnier/métallier pendant près de sept années. </text:span></text:p>
+   <text:p text:style-name="P10"/>
+   <text:p text:style-name="P11"><text:tab/>Malheureusement quelques soucis de santé m’ayant rendu inapte au travail d’atelier, j’ai décidé de recommencer une carrière de développeur afin de pouvoir continuer à travailler sans handicap … tout en continuant à programmer. En effet aux cours de mon précédent emploi j’ai eu pour tache <text:span text:style-name="T2">(entre autres choses)</text:span> de reprendre les plans conceptions du bureau d’étude et gérer une production de pièces métalliques <text:span text:style-name="T2">cisaillées,</text:span> poinçonnées <text:span text:style-name="T2">et pliées</text:span> en petite et moyennes séries . Mes machines de production étant pilotable en code en code G ( langage d’usinage procédural ) j’a<text:span text:style-name="T6">vais</text:span> pu consacrer plusieurs heures par semaines à écrire intégralement mes programmes <text:span text:style-name="T2">au pupitre.</text:span></text:p>
+   <text:p text:style-name="P11"/>
+   <text:p text:style-name="P12"><text:tab/>Mon passé de développeur aidant j’ai pû intégrer le centre AFPA d’Amiens un un premier <text:span text:style-name="T5">MS DIW fin Mars 2022, au cour duquel j’ai pu me familiariser avec les technologie du web que je ne connaissais finalement que de manière superficielle.</text:span></text:p>
+   <text:p text:style-name="P5"/>
+   <text:p text:style-name="P5"/>
+   <text:p text:style-name="P16"><text:soft-page-break/>2 . Présentation de l&apos;entreprise <text:span text:style-name="T9">Adjustem</text:span>, de la mission qui <text:span text:style-name="T1">m’</text:span>a été confiée, ainsi que de l&apos;objectif de ce rapport de stage.</text:p>
+   <text:p text:style-name="P21"/>
+   <text:p text:style-name="P21"/>
+   <text:p text:style-name="P22">A<text:span text:style-name="T14">djustem</text:span> est <text:span text:style-name="T14">une société</text:span> <text:span text:style-name="T14">éditrice de </text:span>logiciel<text:span text:style-name="T14">s</text:span> de gestion commerciale spécialisé<text:span text:style-name="T14">e</text:span> dans le chiffrage/devis de menuiserie, destiné aux professionnels de la menuiserie : Négociants, Fabricants, Installateurs.</text:p>
+   <text:p text:style-name="P21"/>
+   <text:p text:style-name="P26">Histoire de la société</text:p>
+   <text:p text:style-name="P21"/>
+   <text:p text:style-name="P21">Le logiciel Adjustem <text:span text:style-name="T17">était </text:span>au départ <text:span text:style-name="T17">le</text:span> projet de fin d’étude de Rémi Théron <text:span text:style-name="T17">jeune ingénieur informatique au milieu des années 1990.</text:span></text:p>
+   <text:p text:style-name="P25"/>
+   <text:p text:style-name="P21"><text:span text:style-name="T17">En démarrant une première</text:span> exploitation commerciale de la solution Adjustem en 1998 <text:span text:style-name="T17">Monsieur Théron sera l’un des précurseurs de la numérisation, du traitement de données et du chiffrage de devis dans un secteur où les catalogues papiers sont la seule référence.</text:span></text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22">La société Adjustem actuelle voit le jour en 2006 date d’association de Rémi Théron, <text:span text:style-name="T15">créateur du logiciel Adjustem, et de Jérôme Gallot. </text:span></text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P23">A la suite au décès de Monsieur Théron en 2012 Jérôme Gallot s’ associ<text:span text:style-name="T14">e</text:span> à Donatien Célia afin de faire perdurer la suite logicielle Adjustem.</text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P27">Activité économique et environnement de l&apos;entreprise </text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P24">Devant répondre à une variété de client vaste et diversifiée l’entreprise Adjustem à su adapter son offre aux contraintes technique de l’artisan menuisier jusqu’au grands groupes tels que BigMat, Union-Matériaux ou Castorama. </text:p>
+   <text:p text:style-name="P24"/>
+   <text:p text:style-name="P24">Ainsi tout naturellement l’une des contraintes de la société Adjustem est de maintenir un haut niveau de rétrocompatibilité.</text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P23">Tout en continuant de maintenir et adapter Adjustem à la perpétuelle évolution des normes du bâtiment, l’équipe d’Adjustem travaille sur une nouvelle suite logicielle : Adjustem Web. </text:p>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P9">Dans le cadre de cette évolution Donatien Célia m’a confié pour mission <text:span text:style-name="T13">le développement d’</text:span>une version web d’un <text:span text:style-name="T13">module </text:span>de mise en situation de menuiserie. <text:span text:style-name="T18">L’actuelle version de c</text:span>e module est une application desktop développée sous l’<text:span text:style-name="T16">IDE</text:span> C++ Borland Builder <text:span text:style-name="T13">permettant de dessiner une menuiserie sur une photographie de bâtiment existant.</text:span></text:p>
+   <text:p text:style-name="P9"/>
+   <text:p text:style-name="P9">L’existence de ce module a permit de définir clairement les attentes minimales pour les résultats de mon travail. </text:p>
+   <text:p text:style-name="P9"/>
+   <text:p text:style-name="P6">Par un hasard de calendrier l’entreprise Adjustem s’est retrouvé<text:span text:style-name="T18">e, lors de ma période de stage,</text:span> prise dans un<text:span text:style-name="T18">e refonte d’une partie complexe </text:span><text:span text:style-name="T3">de sa principale suite logicielle </text:span><text:span text:style-name="T18">de chiffrage</text:span><text:span text:style-name="T3"> </text:span>lié à une évolution de la fiscalité <text:span text:style-name="T18">sur </text:span>l’éco-participation des éléments d’ameublement. <text:span text:style-name="T3">Cela m’a permit de m’immerger dans l’activité de cette PME en pleine effervescence tout en jouissant d’une totale liberté de recherche pour mon travail.</text:span></text:p>
+   <text:p text:style-name="P9"><text:soft-page-break/></text:p>
+   <text:p text:style-name="P9"/>
+   <text:p text:style-name="P18"><text:span text:style-name="T10">Le présent rapport fera <text:s/></text:span><text:span text:style-name="T12">bien entendu </text:span><text:span text:style-name="T10">la présentation <text:s/>du travail accompli </text:span><text:span text:style-name="T11">de</text:span><text:span text:style-name="T10"> la réception du cahier des charges de l’application à l’intégration </text:span><text:span text:style-name="T12">finale</text:span><text:span text:style-name="T10"> de mon travail dans l’environnement Adjustem Web </text:span><text:span text:style-name="T12">à la toute fin de ma période en entreprise</text:span><text:span text:style-name="T10">.</text:span></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P19"><text:soft-page-break/><text:span text:style-name="T13">3. <text:s/>Contexte : Présentation du domaine d&apos;application du logiciel de </text:span><text:span text:style-name="T9">M</text:span><text:span text:style-name="T13">ise en </text:span><text:span text:style-name="T9">S</text:span><text:span text:style-name="T13">ituation et des besoins pour lesquels il a été développé.</text:span></text:p>
+   <text:p text:style-name="P29">Le module de mise en situation original étant actuellement en production et utilisé régulièrement pas les clients, mon travail devra répondre aux mêmes besoins et apporter quelques avancées</text:p>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P33">cahier des charges :</text:p>
+   <text:p text:style-name="P32"/>
+   <text:p text:style-name="P30">La Mise en Situation est un outils permettant de visualiser une menuiserie (porte, fenêtre ou porte de garage) sur un bâtiment. La Mise en Situation doit pouvoir être utilisé par des commerciaux afin de présenter un produit au client ou illustrer un devis.</text:p>
+   <text:p text:style-name="P32"/>
+   <text:p text:style-name="P32"><text:s/>-Les fonctionnalités de l&apos;ancien module doivent être reproduite dans la nouvelle version</text:p>
+   <text:p text:style-name="P32"><text:s/><text:span text:style-name="T19">soit :</text:span></text:p>
+   <text:p text:style-name="P32"><text:tab/>-<text:span text:style-name="T20">Prise en charge des formats d’image </text:span><text:span text:style-name="T21">JPEG </text:span><text:span text:style-name="T22">et</text:span><text:span text:style-name="T21"> PNG</text:span></text:p>
+   <text:p text:style-name="P32"><text:tab/>-<text:span text:style-name="T19">Ajout suppression de photos d’un produit/menuiserie</text:span></text:p>
+   <text:p text:style-name="P32"><text:tab/>-<text:span text:style-name="T19">Ajout suppression de photos d’une photo de batiment</text:span></text:p>
+   <text:p text:style-name="P32"><text:tab/>-<text:span text:style-name="T19">Placement de la menuiserie en mode Proportionnel</text:span></text:p>
+   <text:p text:style-name="P32"><text:tab/>-<text:span text:style-name="T19">Placement de la menuiserie en mode Personnalité (ratio libre)</text:span></text:p>
+   <text:p text:style-name="P32"><text:tab/>-<text:span text:style-name="T19">Ajout d’une mention « Photo non contractuelle » en noir ou blanc.</text:span></text:p>
+   <text:p text:style-name="P32"><text:tab/>-<text:span text:style-name="T19">Export de l’image obtenue </text:span><text:span text:style-name="T23">via enregistrement en local</text:span></text:p>
+   <text:p text:style-name="P32"><text:s/></text:p>
+   <text:p text:style-name="P31">De plus les points suivants sont attendu dans la nouvelle version de la Mise en Situation</text:p>
+   <text:p text:style-name="P32"/>
+   <text:p text:style-name="P32">-Les images <text:span text:style-name="T23">de menuiseries</text:span> devront à présent pouvoir être mise en perspective</text:p>
+   <text:p text:style-name="P32">-Le module de mise en situation pour Adjustem Web doit être développé sur une base Php</text:p>
+   <text:p text:style-name="P32">-Le module doit être responsive</text:p>
+   <text:p text:style-name="P32">-Le module doit respecter la charte graphique de l&apos;<text:span text:style-name="T23">A</text:span>djustem web basé sur bootstrap 4.6</text:p>
+   <text:p text:style-name="P32"/>
+   <text:p text:style-name="P32">-La mention doit pouvoir être plus paramétrable</text:p>
+   <text:p text:style-name="P32">-Le module doit pouvoir s’exécuter sur Microsoft Edge, Chrome et Firefox</text:p>
+   <text:p text:style-name="P32">-Le module doit pouvoir s’exécuter sur un poste desktop classique, un terminal tactile <text:span text:style-name="T23">et une tablette</text:span></text:p>
+   <text:p text:style-name="P32">-Utilisation des variables de session possible mais pas de cookies</text:p>
+   <text:p text:style-name="P32">-Le module doit pouvoir gérer et exporter les images au format base64</text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T10">-Le module peut fonctionner en stand-alone ou être intégré dans la suite Adjustem Web</text:span></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P32"><text:span text:style-name="T25"/></text:p>
+   <text:p text:style-name="P20"><text:soft-page-break/><text:span text:style-name="T27">4.</text:span><text:span text:style-name="T25"> </text:span><text:span text:style-name="T24">Présentation de l&apos;outil de développement </text:span></text:p>
+   <text:p text:style-name="P39"/>
+   <text:p text:style-name="P38"><text:s/></text:p>
+   <text:p text:style-name="P40"><text:s/><text:span text:style-name="T28">Pour le développement de la Mise en Situation j’ai décidé d’utiliser une bonne partie des outils avec lesquels j’ai pu être familiarisé lors de ma formation au centre AFPA d’Amiens.</text:span></text:p>
+   <text:p text:style-name="P40"/>
+   <text:p text:style-name="P40">pour le prototypage <text:span text:style-name="T28">et la conception</text:span></text:p>
+   <text:p text:style-name="P40"/>
+   <text:p text:style-name="P40">-Figma</text:p>
+   <text:p text:style-name="P40">-PlantUML</text:p>
+   <text:p text:style-name="P40"/>
+   <text:p text:style-name="P40">pour le développement</text:p>
+   <text:p text:style-name="P40"/>
+   <text:p text:style-name="P40">-Visual Studio Code</text:p>
+   <text:p text:style-name="P40">-Notepad++</text:p>
+   <text:p text:style-name="P40">-winmerge <text:span text:style-name="T29">(application de comparaison de fichiers)</text:span></text:p>
+   <text:p text:style-name="P40">-Github</text:p>
+   <text:p text:style-name="P40"/>
+   <text:p text:style-name="P40"/>
+   <text:p text:style-name="P41">Pour la communication au sein de l’équipe d’Adjustem l’entreprise a choisi d’utiliser un serveur Discord <text:span text:style-name="T18">depuis 2020.</text:span></text:p>
+   <text:p text:style-name="P41"/>
+   <text:p text:style-name="P28">Pour la sauvegarde des donnée Adjustem travaille avec un système de sauvegarde en local hérité de près de trente années d’historique qui fonctionne en parallèle d’outils plus moderne comme github.</text:p>
+   <text:p text:style-name="P40"/>
+   <text:p text:style-name="P40"/>
+   <text:p text:style-name="P40">La mise en situation part sur les <text:span text:style-name="T29">impératifs</text:span> de développement suivant<text:span text:style-name="T29">s</text:span> :</text:p>
+   <text:p text:style-name="P36"><text:tab/>Développement sur un poste de travail sous Windows 7 pro 64 bits</text:p>
+   <text:p text:style-name="P36"><text:tab/>Le module devra s’intégrer dans l’Adjustem-Web qui est développé sous le framework PHP CodeIgniter 4</text:p>
+   <text:p text:style-name="P36"><text:tab/>La version de php actuellement utilisée dans l’application Adjustem-Web est la 7.4.33</text:p>
+   <text:p text:style-name="P36"><text:tab/>Pour la charte graphique l’utilisation de Bootstrap 4,6 est nécessaire</text:p>
+   <text:p text:style-name="P36"/>
+   <text:p text:style-name="P37"><text:span text:style-name="T26">Pour la réalisation de la compatibilité du modules sur les navigateurs cibles de l’Adjustem-Web</text:span></text:p>
+   <text:p text:style-name="P40"><text:tab/>mise à disposition d’un second poste desktop équipé d’un écran tactile</text:p>
+   <text:p text:style-name="P40"/>
+   <text:p text:style-name="P28"><text:span text:style-name="T30">J’ai pu prendre en main les outils </text:span></text:p>
+   <text:p text:style-name="P40"><text:span text:style-name="T30">phpMyAdmin et </text:span>Wampserver 3.3.0 <text:span text:style-name="T30">et fais mes test sur le mini server PHP spark</text:span> <text:span text:style-name="T30">ainsi</text:span></text:p>
+   <text:p text:style-name="P40"><text:tab/>Firefox</text:p>
+   <text:p text:style-name="P40"><text:tab/>Chrome</text:p>
+   <text:p text:style-name="P35"><text:tab/>Edge</text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T10"/></text:p>
+  </office:text>
+ </office:body>
+</office:document>
