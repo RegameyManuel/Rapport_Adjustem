@@ -8,35 +8,34 @@ title Mise en Situation Cas d'Utilisations
 
 package Adjustem-Web {
     package Mise-en-Situation {
-        rectangle Objet {
-            usecase "Choix d'un Objet" as UC1 #LightCyan
 
-            package Transparence {
-                usecase "Gérer la transparence de l'Objet" as UC2 #LightCyan
-                usecase "Augmenter le filtre de transparence" as UC3 #LightCyan
-                usecase "Diminuer le filtre de transparence" as UC4 #LightCyan
-                usecase "Modifier la couleur de fond transparence" as UC5 #LightCyan
-            }
+        usecase "Choix d'un Objet" as UC1 #LightCyan
+        usecase "Activer la transparence de l'Objet" as UC2 #LightCyan
+        package Transparence {
 
-            usecase "Détourer l'Objet" as UC6 #LightCyan
+            usecase "Augmenter le filtre de transparence" as UC3 #LightCyan
+            usecase "Diminuer le filtre de transparence" as UC4 #LightCyan
+            usecase "Modifier la couleur de fond transparence" as UC5 #LightCyan
         }
-        rectangle Vue {
-            usecase "Choix d'une Vue" as UC7 #LightCyan
-        }
-        rectangle Mode {
-            usecase "Implanter l'Objet ratio proportionnel" as UC8 #LightCyan
-            usecase "Implanter l'Objet ratio libre" as UC9 #LightCyan
-            usecase "Implanter l'Objet en perspective" as UC10 #LightCyan
-        }
-        rectangle Mention {
-            usecase "Ajouter une mention" as UC11 #LightCyan
-            usecase "Modifier la mention" as UC12 #LightCyan
-            usecase "Changer la couleur de la mention" as UC13 #LightCyan
-            usecase "Déplacer la mention" as UC14 #LightCyan
-        }
-        rectangle Export {
-            usecase "Exporter la Mise en Situation" as UC15 #LightCyan
-        }
+
+        usecase "Détourer l'Objet" as UC6 #LightCyan
+
+        usecase "Choix d'une Vue" as UC7 #LightCyan
+
+        usecase "Implanter l'Objet ratio proportionnel" as UC8 #LightCyan
+        usecase "Implanter l'Objet ratio libre" as UC9 #LightCyan
+        usecase "Implanter l'Objet en perspective" as UC10 #LightCyan
+
+        usecase "Ajouter une mention" as UC11 #LightCyan
+        usecase "Modifier la mention" as UC12 #LightCyan
+        usecase "Changer la couleur de la mention" as UC13 #LightCyan
+        usecase "Déplacer la mention" as UC14 #LightCyan
+
+        usecase "Exporter la Mise en Situation" as UC15 #LightCyan
+
+        usecase "Exporter l'Objet" as UC16 #LightCyan
+        usecase "Activer l'aide" as UC17 #LightCyan
+
     }
 }
 
@@ -55,5 +54,7 @@ u --- UC12
 u --- UC13
 u --- UC14
 u --- UC15
+u --- UC16
+u --- UC17
 
 @enduml

@@ -1,0 +1,28 @@
+@startuml Mise en Situation Cas d'Utilisations
+!theme cerulean-outline
+skinparam actorStyle hollow
+left to right direction
+title Mise en Situation Cas d'Utilisations Partie Mention
+
+:Utilisateur: as u #green
+
+package Adjustem-Web {
+    package Mise-en-Situation {
+
+        usecase "Ajouter une mention" as UC11 #LightCyan
+        usecase "Modifier la mention" as UC12 #LightCyan
+        usecase "Changer la couleur de la mention" as UC13 #LightCyan
+        usecase "Déplacer la mention" as UC14 #LightCyan
+
+
+    }
+}
+
+
+u --- UC11
+u --- UC12
+u --- UC13
+u --- UC14
+
+
+@enduml

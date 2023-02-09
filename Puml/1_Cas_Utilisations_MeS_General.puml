@@ -1,0 +1,38 @@
+@startuml Mise en Situation Cas d'Utilisations
+!theme cerulean-outline
+skinparam actorStyle hollow
+left to right direction
+title Mise en Situation Cas d'Utilisations Général
+
+:Utilisateur: as u #green
+
+package Adjustem-Web {
+    package Mise-en-Situation {
+
+        usecase "Choix d'un Objet" as UC1 #LightCyan
+
+        usecase "Choix d'une Vue" as UC2 #LightCyan
+
+        usecase "Implanter l'Objet ratio proportionnel" as UC3 #LightCyan
+        usecase "Implanter l'Objet ratio libre" as UC4 #LightCyan
+        usecase "Implanter l'Objet en perspective" as UC5 #LightCyan
+
+        usecase "Exporter la Mise en Situation" as UC6 #LightCyan
+
+        usecase "Exporter l'Objet" as UC7 #LightCyan
+        usecase "Activer l'aide" as UC8 #LightCyan
+
+    }
+}
+
+u --- UC1
+u --- UC2
+u --- UC3
+u --- UC4
+u --- UC5
+u --- UC6
+u --- UC7
+u --- UC8
+
+
+@enduml

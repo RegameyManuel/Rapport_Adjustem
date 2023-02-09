@@ -1,0 +1,33 @@
+@startuml Mise en Situation Cas d'Utilisations
+!theme cerulean-outline
+skinparam actorStyle hollow
+left to right direction
+title Mise en Situation Cas d'Utilisations Partie Objet
+
+:Utilisateur: as u #green
+
+package Adjustem-Web {
+    package Mise-en-Situation {
+
+        usecase "Activer la transparence de l'Objet" as UC2 #LightCyan
+        package Transparence {
+
+            usecase "Augmenter le filtre de transparence" as UC3 #LightCyan
+            usecase "Diminuer le filtre de transparence" as UC4 #LightCyan
+            usecase "Modifier la couleur de fond transparence" as UC5 #LightCyan
+        }
+
+        usecase "Détourer l'Objet" as UC6 #LightCyan
+
+    }
+}
+
+
+u --- UC2
+u --- UC3
+u --- UC4
+u --- UC5
+u --- UC6
+
+
+@enduml
