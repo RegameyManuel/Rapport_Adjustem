@@ -35,3 +35,12 @@ Certains points pourraient toutefois être améliorés :
 
 
 ne pas oublier d’ajouter <?= csrf_field() ?>
+
+/***************/
+
+Gestion du PHP.ini pour gérer les image dont le poids dépasse les 8mb
+
+POST_MAX_SIZE = 16M
+OUTPUT_BUFFERING = 16384
+
+
