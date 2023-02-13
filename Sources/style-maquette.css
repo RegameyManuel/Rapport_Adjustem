@@ -1,0 +1,14 @@
+
+#image { width :2em;
+        height: auto;
+    }
+
+#situation { width :inherit;
+        height: auto;
+    }
+#img_obj { width :6em;
+        height: auto;
+    }
+#img_vue { width :10em;
+        height: auto;
+    }
